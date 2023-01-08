@@ -113,6 +113,7 @@
 }
 .collection .collection-img img{
     filter: brightness(50%);
+    width: 100%;
 }
 .collection{
     position: relative;
@@ -141,26 +142,29 @@
     background-color: #ece6e8;
     width: 100%;
     height: 90vh;
+    padding-top: 70px;
 }
 .productOne .productOne-content{
     background-color: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 900px;
-    height: 900px;
+    margin: auto;
+    width: 932px;
+    height: 534px;
     display: flex;
     justify-content: center;
     flex-direction: row;
+    align-items: center;
+    padding: 5%;
 }
 .productOne .productOne-content .productOne-introduce{
     text-align: center;
     align-items: center;
+    width: 300px;
+    padding-right:30px ;
 }
 .productOne .productOne-content .productOne-introduce .productOne-title{
     font-size: 34px;
     margin-bottom: 20px;
+    font-family: "Joan";
 }
 .productOne .productOne-content .productOne-introduce .productOne-logo{
  margin-bottom: 20px;
@@ -184,4 +188,59 @@
     background-color: red;
     color: white;
     border: none;
+}
+
+.collection-img img {
+    height: 100%;
+}
+.productOne-img img {
+    height: 342.9px;
+    width: 300px;
+    margin-left: 60px;
+}
+.productTwo{
+    width: 100%;    
+    height: 80%;
+    background-color:rgba(219,8,23,255) ;
+    
+}
+.productTwo .productTwo-content{
+    background-color:rgba(219,8,23,255);
+    width: 80%;
+    margin: auto;
+}
+.productTwo .productTwo-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.productTwo .productTwo-content .productTwo-introduce{
+    padding: 9%;
+    width: 50%;
+}
+.productTwo .productTwo-content .productTwo-img img{
+    height: 100%;
+    width: 100%;
+}
+.productTwo .productTwo-content .productTwo-introduce .productTwo-title{
+    font-size: 42px;
+    max-width: 256px;
+    color: white;
+    font-family: "Joan";
+    margin-bottom: 15px;
+}
+.productTwo .productTwo-content .productTwo-introduce .productTwo-logo img{
+    width: 50%;
+    margin-bottom: 15px;
+}
+.productTwo .productTwo-content .productTwo-introduce .productTwo-describe{
+    color: white;
+    margin-bottom: 15px;
+}
+.productTwo .productTwo-content .productTwo-introduce .productTwo-price{
+    font-size: 30px;
+    color: white;
+}
+.productTwo-00{
+    font-size: 20px;
 }
