@@ -240,7 +240,184 @@
 .productTwo .productTwo-content .productTwo-introduce .productTwo-price{
     font-size: 30px;
     color: white;
+    font-weight: 700;
 }
 .productTwo-00{
     font-size: 20px;
+}
+.productTwo .productTwo-content .productTwo-introduce .productTwo-btn button{
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    color: red;
+    border: none;
+}
+.productThree{
+    background-color: #ece6e8;
+    width: 100%;
+    height: 90vh;
+    padding-top: 70px;
+    text-align: center;
+}
+.productThree .productThree-content{
+    background-color: white;
+    margin: auto;
+    width: 932px;
+    height: 534px;
+    align-items: center;
+    padding: 5%;
+}
+.productThree .productThree-content .productThree-title{
+    font-size: 34px;
+    color: black;
+    font-family: "Joan";
+}
+.productThree .productThree-content .productThree-logo img{
+    width: 30%;
+    height: 30%;
+}
+.productThree .productThree-content .productThree-describe{
+    color: red;
+    font-style: italic;
+}
+.productThree-wrap{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.productThree-wrap .productThree-img img{
+    height: 300px;
+    margin-right: 60px;
+}
+
+.productThree-wrap .productThree-wrap2 .productThree-wrap2-title{
+    font-size: 24px;
+    font-family: "Joan";
+    margin-bottom: 10px;
+
+}
+.productThree-wrap .productThree-wrap2 .productThree-wrap2-price{
+    font-size: 28px;
+    color: red;
+    font-weight: 900;  
+    margin-bottom: 10px; 
+}
+.productThree-00{
+    font-size: 20px;
+}
+.productThree-btn button{
+    width: 120px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.section-describe{
+    width: 100%;
+    height: 40vh;
+    background-image: url(https://demo.web4pro.net/static/emails/valentine/bg-img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px;
+    text-align: center;
+    color: white;
+}
+.section-describe-title{
+    font-size: 54px;
+}
+.section-describe-sub{
+    font-style: italic;
+    max-width: 2000px;
+}
+.section-productFour{
+    background-color: #ece6e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.grid{
+    display: flex;
+}
+.grid-item{
+    background-color: #fff;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+    max-width: 362.5px;
+    text-align: center;
+    margin-right: 45px;
+}
+.grid-item:hover{
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+.grid-item .grid-item-img{
+    margin-bottom: 30px;
+}
+.grid-item .grid-item-img img{
+    display: block;
+    height: 250px;
+}
+.grid-item h3{
+    font-family: "Joan";
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.grid-item-logo{
+    margin-bottom: 40px;
+}
+.grid-item-logo img{
+    width: 150px;
+}
+.grid-item p{
+    font-family: "Open Sans";
+    
+}
+.grid-item-price{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.grid-item-price span{
+    font-size: 20px;
+}
+.grid-item-btn{
+    margin-bottom: 30px;
+}
+.grid-item-btn button{
+    width: 120px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.footer{
+    width: 100%;
+    height: 45vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer .footer-title{
+    text-transform: uppercase;
+    font-family: "Joan",sans-serif;
+    font-size: 44px;
+    font-weight: 300;
+    padding-top: 54px;
+}
+.footer .footer-p{
+    padding-bottom: 60px;
+}
+.footer ul {
+    display: flex;
+    justify-content: center;
+}
+.footer ul li{
+    padding-right: 20px;
+    list-style: none;
+}
+.footer ul li a{
+    color: white;
 }
